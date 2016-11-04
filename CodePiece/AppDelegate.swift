@@ -9,6 +9,9 @@
 import Cocoa
 import ESNotification
 
+import ESGooglePlusAPI							// FIXME: Experimental.
+private let googlePlusAPI = GooglePlusAPI()		// FIXME: Experimental.
+
 // FIXME: ⭐️ 現在は ATS を無効化しています。OSX 10.11 になったら ATS ありでも動くように調整します。
 
 @NSApplicationMain
@@ -17,8 +20,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, AlertDisplayable {
 	var urlSchemeManager:URLSchemeManager!
 	
 	override func awakeFromNib() {
-		
-		NSLog("Application awoke.")
 		
 		super.awakeFromNib()
 
@@ -39,6 +40,11 @@ class AppDelegate: NSObject, NSApplicationDelegate, AlertDisplayable {
 		self.urlSchemeManager = URLSchemeManager()
 		
 		NSApp.twitterController.verifyCredentialsIfNeed()
+		
+		do {
+			
+			googlePlusAPI.login()	// FIXME: Experimental.
+		}
 	}
 
 	func applicationWillTerminate(aNotification: NSNotification) {

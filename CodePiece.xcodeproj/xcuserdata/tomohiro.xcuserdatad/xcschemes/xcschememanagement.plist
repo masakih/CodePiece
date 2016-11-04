@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ESGooglePlusAPI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>ESTwitterAPI.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>B1587C3F1BE843D0001E0E1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B1713FD91DCC7EC500DC31DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

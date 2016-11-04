@@ -87,6 +87,10 @@
 		B169B84B1C4E3F0500CBF6C9 /* CodeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169B84A1C4E3F0500CBF6C9 /* CodeText.swift */; };
 		B169B84D1C4E4A5A00CBF6C9 /* ViewController+PostDataManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169B84C1C4E4A5A00CBF6C9 /* ViewController+PostDataManage.swift */; };
 		B16DA7211BC92C5C00ED1599 /* AboutWindowControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DA7201BC92C5C00ED1599 /* AboutWindowControllerSegue.swift */; };
+		B1713FDD1DCC7EC500DC31DC /* ESGooglePlusAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = B1713FDC1DCC7EC500DC31DC /* ESGooglePlusAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1713FE11DCC7EC500DC31DC /* ESGooglePlusAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1713FDA1DCC7EC500DC31DC /* ESGooglePlusAPI.framework */; };
+		B1713FE21DCC7EC500DC31DC /* ESGooglePlusAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1713FDA1DCC7EC500DC31DC /* ESGooglePlusAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1713FE71DCC7EFF00DC31DC /* GooglePlusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1713FE61DCC7EFF00DC31DC /* GooglePlusAPI.swift */; };
 		B1745BD41BF8CDF000E19F32 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1745BD31BF8CDF000E19F32 /* Media.swift */; };
 		B17515201D56DE6700648E17 /* UserDefaultsAccessible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175151F1D56DE6700648E17 /* UserDefaultsAccessible.swift */; };
 		B177FA6D1BF1FC7F000CE394 /* TimelineTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B177FA6C1BF1FC7F000CE394 /* TimelineTableController.swift */; };
@@ -143,6 +147,7 @@
 		B1F16A661C77286B000CBB5F /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = B1F16A651C77286B000CBB5F /* 1.json */; };
 		B1F16A6A1C772AFB000CBB5F /* UserMention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F16A671C772AF2000CBB5F /* UserMention.swift */; };
 		B1F6CF211C5F49E800E5D3B8 /* URLEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6CF1F1C5F492300E5D3B8 /* URLEntity.swift */; };
+		E8458939B135609A095E4DC7 /* Pods_ESGooglePlusAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26884A9F8ECCAF907E036A9 /* Pods_ESGooglePlusAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +171,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B1492FB11B5BCED80043ED8D;
 			remoteInfo = CodePiece;
+		};
+		B1713FDF1DCC7EC500DC31DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1492FAA1B5BCED80043ED8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1713FD91DCC7EC500DC31DC;
+			remoteInfo = ESGooglePlusAPI;
 		};
 		B18AA96E1BC6903A00056E86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -201,6 +213,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B1713FE21DCC7EC500DC31DC /* ESGooglePlusAPI.framework in Embed Frameworks */,
 				B152E2BE1B6EE06A008B485A /* (null) in Embed Frameworks */,
 				B10CB6941BCCBBBC001C9E02 /* (null) in Embed Frameworks */,
 				B1D92FAE1D6DEC45000D403A /* ESTwitter.framework in Embed Frameworks */,
@@ -225,6 +238,7 @@
 
 /* Begin PBXFileReference section */
 		07980E07CAF5F499F3CEEF07 /* Pods-CodePiece.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePiece.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodePiece/Pods-CodePiece.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5E9E71540B9C7DA8369397 /* Pods-ESGooglePlusAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGooglePlusAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESGooglePlusAPI/Pods-ESGooglePlusAPI.release.xcconfig"; sourceTree = "<group>"; };
 		40415ECECCBD7373B5A59A0D /* Pods-CodePiece.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePiece.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodePiece/Pods-CodePiece.release.xcconfig"; sourceTree = "<group>"; };
 		4D15B080E62391B8FEFE53BF /* Pods_ESTwitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESTwitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F2A01077BD5AC5E845965E /* Pods-ESTwitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTwitter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESTwitter/Pods-ESTwitter.release.xcconfig"; sourceTree = "<group>"; };
@@ -323,6 +337,10 @@
 		B169B84A1C4E3F0500CBF6C9 /* CodeText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeText.swift; sourceTree = "<group>"; };
 		B169B84C1C4E4A5A00CBF6C9 /* ViewController+PostDataManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+PostDataManage.swift"; sourceTree = "<group>"; };
 		B16DA7201BC92C5C00ED1599 /* AboutWindowControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutWindowControllerSegue.swift; sourceTree = "<group>"; };
+		B1713FDA1DCC7EC500DC31DC /* ESGooglePlusAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESGooglePlusAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1713FDC1DCC7EC500DC31DC /* ESGooglePlusAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESGooglePlusAPI.h; sourceTree = "<group>"; };
+		B1713FDE1DCC7EC500DC31DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1713FE61DCC7EFF00DC31DC /* GooglePlusAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlusAPI.swift; sourceTree = "<group>"; };
 		B1745BD31BF8CDF000E19F32 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Media.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B175151F1D56DE6700648E17 /* UserDefaultsAccessible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsAccessible.swift; sourceTree = "<group>"; };
 		B177FA6C1BF1FC7F000CE394 /* TimelineTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableController.swift; sourceTree = "<group>"; };
@@ -379,8 +397,10 @@
 		B1F16A651C77286B000CBB5F /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
 		B1F16A671C772AF2000CBB5F /* UserMention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMention.swift; sourceTree = "<group>"; };
 		B1F6CF1F1C5F492300E5D3B8 /* URLEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLEntity.swift; sourceTree = "<group>"; };
+		B26884A9F8ECCAF907E036A9 /* Pods_ESGooglePlusAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESGooglePlusAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF13FDFE9B06E1A399BC4CB /* Pods_CodePiece.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodePiece.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FEB80EB37058E9C54DE649 /* Pods-ESTwitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESTwitter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESTwitter/Pods-ESTwitter.debug.xcconfig"; sourceTree = "<group>"; };
+		E46FD5C8A480C1311817AD49 /* Pods-ESGooglePlusAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESGooglePlusAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESGooglePlusAPI/Pods-ESGooglePlusAPI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +416,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1713FE11DCC7EC500DC31DC /* ESGooglePlusAPI.framework in Frameworks */,
 				B1D92FAD1D6DEC45000D403A /* ESTwitter.framework in Frameworks */,
 				1AE41D3CF7B27A697EA52CC7 /* Pods_CodePiece.framework in Frameworks */,
 			);
@@ -422,6 +443,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1713FD61DCC7EC500DC31DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8458939B135609A095E4DC7 /* Pods_ESGooglePlusAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B18AA9661BC6903A00056E86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +468,8 @@
 				40415ECECCBD7373B5A59A0D /* Pods-CodePiece.release.xcconfig */,
 				D6FEB80EB37058E9C54DE649 /* Pods-ESTwitter.debug.xcconfig */,
 				65F2A01077BD5AC5E845965E /* Pods-ESTwitter.release.xcconfig */,
+				E46FD5C8A480C1311817AD49 /* Pods-ESGooglePlusAPI.debug.xcconfig */,
+				3D5E9E71540B9C7DA8369397 /* Pods-ESGooglePlusAPI.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -448,6 +479,7 @@
 			children = (
 				CCF13FDFE9B06E1A399BC4CB /* Pods_CodePiece.framework */,
 				4D15B080E62391B8FEFE53BF /* Pods_ESTwitter.framework */,
+				B26884A9F8ECCAF907E036A9 /* Pods_ESGooglePlusAPI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -597,6 +629,7 @@
 				B1492FC61B5BCED80043ED8D /* CodePieceTests */,
 				B1492FD11B5BCED80043ED8D /* CodePieceUITests */,
 				B12674E41BC0ECCA00F38464 /* ESTwitterAPI */,
+				B1713FDB1DCC7EC500DC31DC /* ESGooglePlusAPI */,
 				B18AA96A1BC6903A00056E86 /* MainWindowUITests */,
 				B1587C411BE843D0001E0E1D /* AboutWindowUITests */,
 				B1492FB31B5BCED80043ED8D /* Products */,
@@ -615,6 +648,7 @@
 				B12674E31BC0ECCA00F38464 /* ESTwitter.framework */,
 				B18AA9691BC6903A00056E86 /* MainWindowUITests.xctest */,
 				B1587C401BE843D0001E0E1D /* AboutWindowUITests.xctest */,
+				B1713FDA1DCC7EC500DC31DC /* ESGooglePlusAPI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -719,6 +753,16 @@
 			children = (
 			);
 			path = Editors;
+			sourceTree = "<group>";
+		};
+		B1713FDB1DCC7EC500DC31DC /* ESGooglePlusAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B1713FDC1DCC7EC500DC31DC /* ESGooglePlusAPI.h */,
+				B1713FDE1DCC7EC500DC31DC /* Info.plist */,
+				B1713FE61DCC7EFF00DC31DC /* GooglePlusAPI.swift */,
+			);
+			path = ESGooglePlusAPI;
 			sourceTree = "<group>";
 		};
 		B17C88C41B66E66800CBF20F /* Scripts */ = {
@@ -896,6 +940,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1713FD71DCC7EC500DC31DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1713FDD1DCC7EC500DC31DC /* ESGooglePlusAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -938,6 +990,7 @@
 			);
 			dependencies = (
 				B1D92FB01D6DEC45000D403A /* PBXTargetDependency */,
+				B1713FE01DCC7EC500DC31DC /* PBXTargetDependency */,
 			);
 			name = CodePiece;
 			productName = CodePiece;
@@ -998,6 +1051,26 @@
 			productReference = B1587C401BE843D0001E0E1D /* AboutWindowUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B1713FD91DCC7EC500DC31DC /* ESGooglePlusAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1713FE51DCC7EC500DC31DC /* Build configuration list for PBXNativeTarget "ESGooglePlusAPI" */;
+			buildPhases = (
+				B7BEDB9CEBFFB90A507540CE /* [CP] Check Pods Manifest.lock */,
+				B1713FD51DCC7EC500DC31DC /* Sources */,
+				B1713FD61DCC7EC500DC31DC /* Frameworks */,
+				B1713FD71DCC7EC500DC31DC /* Headers */,
+				B1713FD81DCC7EC500DC31DC /* Resources */,
+				8BC65306FB61D5EF878D02CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESGooglePlusAPI;
+			productName = ESGooglePlusAPI;
+			productReference = B1713FDA1DCC7EC500DC31DC /* ESGooglePlusAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B18AA9681BC6903A00056E86 /* MainWindowUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B18AA9701BC6903A00056E86 /* Build configuration list for PBXNativeTarget "MainWindowUITests" */;
@@ -1022,7 +1095,7 @@
 		B1492FAA1B5BCED80043ED8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "EasyStyle G.K.";
 				TargetAttributes = {
@@ -1060,6 +1133,10 @@
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = B1492FB11B5BCED80043ED8D;
 					};
+					B1713FD91DCC7EC500DC31DC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 89282N6UM7;
+					};
 					B18AA9681BC6903A00056E86 = {
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = B1492FB11B5BCED80043ED8D;
@@ -1085,6 +1162,7 @@
 				B12674E21BC0ECCA00F38464 /* ESTwitter */,
 				B18AA9681BC6903A00056E86 /* MainWindowUITests */,
 				B1587C3F1BE843D0001E0E1D /* AboutWindowUITests */,
+				B1713FD91DCC7EC500DC31DC /* ESGooglePlusAPI */,
 			);
 		};
 /* End PBXProject section */
@@ -1131,6 +1209,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B1587C3E1BE843D0001E0E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1713FD81DCC7EC500DC31DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1192,6 +1277,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		8BC65306FB61D5EF878D02CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESGooglePlusAPI/Pods-ESGooglePlusAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A4C4F6DF77998364941099E8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1235,6 +1335,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "sh \"${SRCROOT}/Tools/GenerateCodePieceClientInfo.sh\"";
+			showEnvVarsInLog = 0;
+		};
+		B7BEDB9CEBFFB90A507540CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1387,6 +1502,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1713FD51DCC7EC500DC31DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1713FE71DCC7EFF00DC31DC /* GooglePlusAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B18AA9651BC6903A00056E86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1412,6 +1535,11 @@
 			isa = PBXTargetDependency;
 			target = B1492FB11B5BCED80043ED8D /* CodePiece */;
 			targetProxy = B1587C451BE843D0001E0E1D /* PBXContainerItemProxy */;
+		};
+		B1713FE01DCC7EC500DC31DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1713FD91DCC7EC500DC31DC /* ESGooglePlusAPI */;
+			targetProxy = B1713FDF1DCC7EC500DC31DC /* PBXContainerItemProxy */;
 		};
 		B18AA96F1BC6903A00056E86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1571,6 +1699,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CodePiece/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1590,6 +1719,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Beta";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = CodePiece/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -1684,6 +1814,59 @@
 			};
 			name = Release;
 		};
+		B1713FE31DCC7EC500DC31DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46FD5C8A480C1311817AD49 /* Pods-ESGooglePlusAPI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ESGooglePlusAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESGooglePlusAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1713FE41DCC7EC500DC31DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5E9E71540B9C7DA8369397 /* Pods-ESGooglePlusAPI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ESGooglePlusAPI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-style.appid.ESGooglePlusAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B18AA9711BC6903A00056E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1765,6 +1948,15 @@
 			buildConfigurations = (
 				B1587C471BE843D0001E0E1D /* Debug */,
 				B1587C481BE843D0001E0E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1713FE51DCC7EC500DC31DC /* Build configuration list for PBXNativeTarget "ESGooglePlusAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1713FE31DCC7EC500DC31DC /* Debug */,
+				B1713FE41DCC7EC500DC31DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
