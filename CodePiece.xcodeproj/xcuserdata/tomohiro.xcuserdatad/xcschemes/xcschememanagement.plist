@@ -9,10 +9,25 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ESGooglePlusAPI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>ESTwitterAPI.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
+		</dict>
+		<key>Ocean.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>Swim.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -43,6 +58,16 @@
 			<true/>
 		</dict>
 		<key>B18AA9681BC6903A00056E86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B19954201E2A26CF000FD587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B19954311E2A26D7000FD587</key>
 		<dict>
 			<key>primary</key>
 			<true/>

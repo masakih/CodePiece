@@ -5,15 +5,12 @@ use_frameworks!
 
 def pods
 
-	pod 'Swim'
-	pod 'Ocean'
 	pod 'ESThread'
 	pod 'ESNotification'
-	pod 'APIKit', '>= 1.1.2'
-	pod 'Himotoki', '>= 1.5.0'
+	pod 'APIKit'
 	pod 'ESGists'
 	pod 'p2.OAuth2'
-	pod 'ReachabilitySwift', '>= 2.0'
+	pod 'ReachabilitySwift'
 
 end
 
@@ -33,7 +30,7 @@ target :ESTwitter do
 	platform :osx, '10.10'
 	use_frameworks!
 	
-	pod 'Himotoki', '>= 1.5.0'
+	pod 'Himotoki'
 	pod 'Swim'
 
 end

@@ -94,6 +94,9 @@ extension Status {
 					self.indices = entity.indices
 					self.color = color
 					self.displayText = entity.displayUrl
+					
+					/// FIXME: ここが EXC_BAD_INSTRUCTION になるツイートがある様子。
+					/// FIXME: fatal error: unexpectedly found nil while unwrapping an Optional value
 					self.link = entity.expandedUrl.url!
 				}
 				
